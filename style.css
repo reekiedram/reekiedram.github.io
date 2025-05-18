@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #fff8f2;
+  color: #333;
+}
+
+header {
+  background: #3e2723;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header .logo {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  color: #5d4037;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #bf360c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.features {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.download-btn {
+  display: inline-block;
+  background: #6d4c41;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background: #5d4037;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.screenshots {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.screenshots img {
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .screenshots {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screenshots img {
+    max-width: 90%;
+  }
+}
